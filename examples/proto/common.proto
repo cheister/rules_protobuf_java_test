@@ -12,3 +12,7 @@ message Config {
   google.protobuf.FileDescriptorProto file = 2;
 }
 
+extend google.protobuf.MessageOptions {
+  string my_option = 10001;
+}
+

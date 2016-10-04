@@ -1,6 +1,6 @@
 git_repository(
     name = "org_pubref_rules_protobuf",
-    tag = "v0.6.2",
+    tag = "v0.6.3",
     remote = "https://github.com/pubref/rules_protobuf.git",
 )
 

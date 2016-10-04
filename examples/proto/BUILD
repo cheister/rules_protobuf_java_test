@@ -6,5 +6,6 @@ java_proto_library(
     name = "java",
     protos = ["common.proto"],
     imports = ['external/com_github_google_protobuf/src'],
-    verbose = 1,
+    inputs = ["@com_github_google_protobuf//:well_known_protos"],
+    verbose = 2,
 )

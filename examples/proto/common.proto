@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "org.pubref.rules_protobuf.examples";
+option java_outer_classname = "CommonProto";
+
+package common;
+
+import "google/protobuf/descriptor.proto";
+
+message Config {
+  bool verbose = 1;
+  google.protobuf.FileDescriptorProto file = 2;
+}
+
